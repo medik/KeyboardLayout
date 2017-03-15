@@ -405,7 +405,7 @@
 		<keyMap index="3">
 			<key code="0" output="ä"/>
 			<key code="1" output="ö"/>
-			<key code="2" action="´"/>
+			<key code="2" action="'"/>
 			<key code="3" action="¨"/>
 			<key code="4" output="∂"/>
 			<key code="5" action="ˆ"/>
@@ -442,7 +442,7 @@
 			<key code="36" output="&#x000D;"/>
 			<key code="37" action="˜"/>
 			<key code="38" output="˙"/>
-			<key code="39" action="´"/>
+			<key code="39" action="'"/>
 			<key code="40" output="†"/>
 			<key code="41" output="ß"/>
 			<key code="42" output="«"/>
@@ -523,7 +523,7 @@
 		<keyMap index="4">
 			<key code="0" output="Ä"/>
 			<key code="1" output="Ö"/>
-			<key code="2" output="´"/>
+			<key code="2" output="'"/>
 			<key code="3" output="¨"/>
 			<key code="4" output="Î"/>
 			<key code="5" output="ˆ"/>
@@ -560,7 +560,7 @@
 			<key code="36" output="&#x000D;"/>
 			<key code="37" output="˜"/>
 			<key code="38" output="Ó"/>
-			<key code="39" output="´"/>
+			<key code="39" output="'"/>
 			<key code="40" output="ˇ"/>
 			<key code="41" output="Í"/>
 			<key code="42" output="»"/>
@@ -641,7 +641,7 @@
 		<keyMap index="5">
 			<key code="0" output="Å"/>
 			<key code="1" output="Ø"/>
-			<key code="2" output="´"/>
+			<key code="2" output="'"/>
 			<key code="3" output="¨"/>
 			<key code="4" output="Î"/>
 			<key code="5" output="ˆ"/>
@@ -678,7 +678,7 @@
 			<key code="36" output="&#x000D;"/>
 			<key code="37" output="˜"/>
 			<key code="38" output="Ó"/>
-			<key code="39" output="´"/>
+			<key code="39" output="'"/>
 			<key code="40" output="†"/>
 			<key code="41" output="Í"/>
 			<key code="42" output="«"/>
@@ -771,7 +771,7 @@
 			<key code="11" output="∫"/>
 			<key code="12" output="œ"/>
 			<key code="13" output="∑"/>
-			<key code="14" output="´"/>
+			<key code="14" output="'"/>
 			<key code="15" output="®"/>
 			<key code="16" output="¥"/>
 			<key code="17" output="†"/>
@@ -1125,7 +1125,7 @@
 			<key code="11" output="ı"/>
 			<key code="12" output="Œ"/>
 			<key code="13" output="„"/>
-			<key code="14" output="´"/>
+			<key code="14" output="'"/>
 			<key code="15" output="‰"/>
 			<key code="16" output="Á"/>
 			<key code="17" output="ˇ"/>
@@ -1232,7 +1232,7 @@
 	<actions>
 		<action id=" ">
 			<when state="none" output=" "/>
-			<when state="s1" output="´"/>
+			<when state="s1" output="'"/>
 			<when state="s2" output="¨"/>
 			<when state="s3" output="ˆ"/>
 			<when state="s4" output="~"/>
@@ -1351,7 +1351,7 @@
 		<action id="¨">
 			<when state="none" next="s2"/>
 		</action>
-		<action id="´">
+		<action id="'">
 			<when state="none" next="s1"/>
 		</action>
 		<action id="ˆ">
@@ -1362,7 +1362,7 @@
 		</action>
 	</actions>
 	<terminators>
-		<when state="s1" output="&#x0027;"/>
+		<when state="s1" output="'"/>
 		<when state="s2" output="¨"/>
 		<when state="s3" output="ˆ"/>
 		<when state="s4" output="˜"/>
