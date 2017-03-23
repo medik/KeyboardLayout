@@ -4,7 +4,7 @@ A DVORAK keyboard layout forked from [Launchpad-McQ/KeyboardLayout](http://githu
 
 ## Install
 
-Fork this repo and then copy the *.keylayout files to /Library/Keyboard\ Layouts/.
+Fork this repo and then copy the *.keylayout files to /Library/Keyboard\ Layouts/. After rebooting you will see the layout being available in Input Sources under Keyboard Preferences.
 
 ```
 $ sudo cp *.keylayout /Library/Keyboard\ Layouts/
