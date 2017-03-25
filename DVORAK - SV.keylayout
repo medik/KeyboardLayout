@@ -1,6 +1,6 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 3.2.2.166 on 2017-03-23 at 21:21 (GMT+1)-->
+<!--Last edited by Ukelele version 3.2.2.166 on 2017-03-25 at 23:36 (GMT+1)-->
 <keyboard group="126" id="-16877" name="DVORAK - SV" maxout="1">
 	<layouts>
 		<layout first="0" last="0" mapSet="138" modifiers="30"/>
@@ -71,10 +71,10 @@
 			<key code="21" output="4"/>
 			<key code="22" output="6"/>
 			<key code="23" output="5"/>
-			<key code="24" output="="/>
+			<key code="24" output="*"/>
 			<key code="25" output="9"/>
 			<key code="26" output="7"/>
-			<key code="27" output="/"/>
+			<key code="27" output="+"/>
 			<key code="28" output="8"/>
 			<key code="29" output="0"/>
 			<key code="30" output="{"/>
@@ -186,9 +186,9 @@
 			<key code="24" output="^"/>
 			<key code="25" output=")"/>
 			<key code="26" output="|"/>
-			<key code="27" output="\"/>
+			<key code="27" output="?"/>
 			<key code="28" output="("/>
-			<key code="29" output="*"/>
+			<key code="29" output="="/>
 			<key code="30" output="}"/>
 			<key code="31" output="R"/>
 			<key code="32" output="G"/>
@@ -413,7 +413,7 @@
 			<key code="27" output="“"/>
 			<key code="28" output="•"/>
 			<key code="29" output="º"/>
-			<key code="30" output="≠"/>
+			<key code="30" output="~"/>
 			<key code="31" output="®"/>
 			<key code="32" output="©"/>
 			<key code="33" output="÷"/>
@@ -967,10 +967,10 @@
 			<key code="21" output="4"/>
 			<key code="22" output="6"/>
 			<key code="23" output="5"/>
-			<key code="24" output="="/>
+			<key code="24" output="*"/>
 			<key code="25" output="9"/>
 			<key code="26" output="7"/>
-			<key code="27" output="/"/>
+			<key code="27" output="+"/>
 			<key code="28" output="8"/>
 			<key code="29" output="0"/>
 			<key code="30" output="{"/>
@@ -982,7 +982,7 @@
 			<key code="36" output="&#x000D;"/>
 			<key code="37" output="n"/>
 			<key code="38" output="h"/>
-			<key code="39" output="+"/>
+			<key code="39" output="/"/>
 			<key code="40" output="t"/>
 			<key code="41" output="s"/>
 			<key code="42" output="-"/>
@@ -1203,7 +1203,7 @@
 			<when state="5" output="ê"/>
 		</action>
 		<action id="13">
-			<when state="none" output="+"/>
+			<when state="none" output="/"/>
 			<when state="1" output="ë"/>
 			<when state="2" output="è"/>
 			<when state="3" output="é"/>
@@ -1296,7 +1296,7 @@
 			<when state="none" next="4"/>
 		</action>
 		<action id="3">
-			<when state="none" output="?"/>
+			<when state="none" output="\"/>
 			<when state="1" output="Ë"/>
 			<when state="2" output="È"/>
 			<when state="3" output="É"/>
